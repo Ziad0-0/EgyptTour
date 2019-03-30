@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Egypt Tour</string>
+    <string name="about_egypt">About Egypt</string>
+    <string name="touristic_places">Touristic Places</string>
+    <string name="dishes">Dishes</string>
+    <string name="help">Help</string>
+    <string name="falafel">Falafel</string>
+    <string name="falafel_description">Falafel, or ta\'ameya as we call it in Egypt, is an all-time favorite street food. In most parts of the Middle East, falafel is made with ground chickpeas. However, in Egypt, we make it with dried fava beans. They are best served with pita bread, tomato, onions, and tahini sauce.</string>
+    <string name="egypt_info">The Arab Republic of Egypt has a unique geographical position in Northeast Africa, at the crossroads of Europe and Asia, on the Mediterranean and Red Sea, and its connection to Sub Saharan Africa through the Nile Valley. Egypt is at the center of the Arab world and controls the Suez Canal; the shortest sea link between the Indian Ocean and the Mediterranean Sea. The country is defined by desert and the Nile, the longest river on Earth. The Nile flows north out of central Africa, cascading over the cataracts (waterfalls) through Upper (southern) Egypt and Lower (northern) Egypt to the Mediterranean Sea—with a mountainous desert to the east, a rolling drier desert to the west, and the vast Sahara to the south.</string>
+    <string name="egypt_help">If you need more to ask more questions about Egypt, or if you want to engage with many egyptians, feel free to visit r/egypt on Reddit.</string>
+</resources>
