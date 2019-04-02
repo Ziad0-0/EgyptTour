@@ -5,6 +5,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,28 +17,24 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 public class AppsFragment extends Fragment {
+    private RecyclerView recyclerView;
+    private AppsAdapter appsAdapter;
+    private RecyclerView.LayoutManager layoutManager;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.items_list, container, false);
+        recyclerView =  rootView.findViewById(R.id.items_list);
+        recyclerView.setHasFixedSize(true);
+        layoutManager = new LinearLayoutManager(this.getContext());
+        recyclerView.setLayoutManager(layoutManager);
 
         final ArrayList<App> appsList = DataStorage.getAppsList();
+        appsAdapter = new AppsAdapter(appsList);
+        recyclerView.setAdapter(appsAdapter);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
 
-        AppAdapter adapter = new AppAdapter(getActivity(), appsList);
-        View view = inflater.inflate(R.layout.items_list, container, false);
-        ListView listView = (ListView) view.findViewById(R.id.items_list);
-        listView.setAdapter(adapter);
-
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                App currentApp = appsList.get(position);
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse(currentApp.getUrl()));
-                startActivity(intent);
-            }
-        });
-
-        return view;
+        return rootView;
     }
 }
