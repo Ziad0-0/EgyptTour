@@ -22,7 +22,7 @@ public class DishesFragment extends Fragment {
 
         final ArrayList<Dish> dishesList = DataStorage.getDishesList();
 
-        DishAdapter adapter = new DishAdapter(getActivity(), -1, dishesList);
+        DishAdapter adapter = new DishAdapter(getActivity(),  dishesList);
         View view = inflater.inflate(R.layout.items_list, container, false);
         ListView listView = (ListView) view.findViewById(R.id.items_list);
         listView.setAdapter(adapter);
@@ -36,8 +36,6 @@ public class DishesFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
-
 
         return view;
     }

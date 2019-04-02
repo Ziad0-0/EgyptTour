@@ -14,34 +14,33 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 
 public class PlaceAdapter extends ArrayAdapter<Place> {
-    public PlaceAdapter(Context context, int resources, ArrayList<Place> placesList) {
+    public PlaceAdapter(Context context, ArrayList<Place> placesList) {
         super(context, 0, placesList);
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
-        View listItem = convertView;
-        if(listItem == null) {
-            listItem = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, null);
+        if(convertView == null) {
+            convertView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, parent, false);
         }
 
         Place currentPlace = getItem(position);
 
         //set the current place image
-        ImageView placeImage = listItem.findViewById(R.id.item_image);
-        Glide.with(listItem).load(currentPlace.getImageID()).into(placeImage);
+        ImageView placeImage = convertView.findViewById(R.id.item_image);
+        Glide.with(convertView).load(currentPlace.getImageID()).into(placeImage);
 
 
         //set the current place name
-        TextView placeName = listItem.findViewById(R.id.item_name);
+        TextView placeName = convertView.findViewById(R.id.item_name);
         placeName.setText(currentPlace.getName());
 
         //set the current place description
-        TextView placeDescription = listItem.findViewById(R.id.item_description);
+        TextView placeDescription = convertView.findViewById(R.id.item_description);
         placeDescription.setText(currentPlace.getDescription());
 
 
-        return listItem;
+        return convertView;
     }
 }

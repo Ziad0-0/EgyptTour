@@ -3,9 +3,51 @@
     <string name="about_egypt">About Egypt</string>
     <string name="touristic_places">Touristic Places</string>
     <string name="dishes">Dishes</string>
+    <string name="useful_apps">Useful Apps</string>
+    <string name="helpful_contacts">Helpful Contacts</string>
     <string name="help">Help</string>
-    <string name="falafel">Falafel</string>
-    <string name="falafel_description">Falafel, or ta\'ameya as we call it in Egypt, is an all-time favorite street food. In most parts of the Middle East, falafel is made with ground chickpeas. However, in Egypt, we make it with dried fava beans. They are best served with pita bread, tomato, onions, and tahini sauce.</string>
     <string name="egypt_info">The Arab Republic of Egypt has a unique geographical position in Northeast Africa, at the crossroads of Europe and Asia, on the Mediterranean and Red Sea, and its connection to Sub Saharan Africa through the Nile Valley. Egypt is at the center of the Arab world and controls the Suez Canal; the shortest sea link between the Indian Ocean and the Mediterranean Sea. The country is defined by desert and the Nile, the longest river on Earth. The Nile flows north out of central Africa, cascading over the cataracts (waterfalls) through Upper (southern) Egypt and Lower (northern) Egypt to the Mediterranean Sea—with a mountainous desert to the east, a rolling drier desert to the west, and the vast Sahara to the south.</string>
     <string name="egypt_help">If you need more to ask more questions about Egypt, or if you want to engage with many egyptians, feel free to visit r/egypt on Reddit.</string>
+    <string name="falafel">Falafel</string>
+    <string name="falafel_description">Falafel, or ta\'ameya as we call it in Egypt, is an all-time favorite street food. In most parts of the Middle East, falafel is made with ground chickpeas. However, in Egypt, we make it with dried fava beans. They are best served with pita bread, tomato, onions, and tahini sauce.</string>
+    <string name="foul">Foul</string>
+    <string name="foul_description">Ful medames is a classic Egyptian dish that you will also see on the tables in other countries in the region. It’s an incredibly simple dish of warm, seasoned fava beans, but also so comforting. And if you start with canned beans, it only takes a couple of minutes to make.</string>
+    <string name="koshari">Koshari</string>
+    <string name="koshari_description">Koshari is another one of those genius solutions to using up pantry staples. It is a cousin to the Middle Eastern Mujadara. In a nutshell, it is a comforting bowl of simple pantry staples: spiced lentils and rice, combined with chickpeas and small pasta.  All smothered in a tomato sauce that’s been spiked with vinegar (out-of-this-world tasty, by the way!) Then…wait for it…it’s topped with savory, crispy thin fried onion rings.</string>
+    <string name="om_aly">Om Aly</string>
+    <string name="om_aly_description">An Egyptian classic as old as time, gets an upgrade with the use of delightfully delicious PALMIERS (lunettes) instead of regular ‘ol puff pastry or roaa (Egyptian flat bread).  Oodles of crushed palmiers get mixed with nuts, sweetened hot milk, topped with whipped cream and broiled to perfection.  The result…crunchy and caramelized on top, deliciously creamy and silky in the bottom.</string>
+    <string name="kahk">Kahk ElEid</string>
+    <string name="kahk_description">Kahk are lightly spiced crumbly cookies stuffed with sweet surprises and buried under copious amounts of powdered sugar.</string>
+    <string name="qasab">Qasab Juice</string>
+    <string name="qasab_description">Qasab juice is the liquid extracted from pressed sugarcane.</string>
+    <string name="pyramids">The Pyramids of Giza</string>
+    <string name="pyramids_description">The pyramids, which have historically been common as emblems of ancient Egypt in the Western imagination, were popularised in Hellenistic times, when the Great Pyramid was listed by Antipater of Sidon as one of the Seven Wonders of the World. It is by far the oldest of the ancient Wonders and the only one still in existence."</string>
+    <string name="bibliotheca">Bibliotheca Alexandrina</string>
+    <string name="bibliotheca_description">The Bibliotheca Alexandrina is a major library and cultural center located on the shore of the Mediterranean Sea in the Egyptian city of Alexandria. It is both a commemoration of the Library of Alexandria that was lost in antiquity, and an attempt to rekindle something of the brilliance that this earlier center of study and erudition represented.</string>
+    <string name="nuba">The Nuba</string>
+    <string name="nuba_description">In the very south of Aswan, right along the border with Sudan, lies a land of secrets; a land that bears the charm of the past with a slight modern touch. A land whose people are a constant reminder of legend of the past, stories of our ancestors, their traditions, their modest lives and their welcoming hearts. A land that will enchant you and intrigue you at the same time. This is El Nuba (Nubia)."</string>
+    <string name="vezeeta">Vezeeta</string>
+    <string name="vezeeta_description">If you feel sick in your trip and you don\'t know any doctors to visit, Vezeeta can be the right solution. Find the best doctors, read real reviews, book appointments instantly with 10,000+ verified doctors, and more with this app.</string>
+    <string name="otlob">Otlob</string>
+    <string name="otlob_description">Order food the easy way, using Otlob you can order from many restaurants without long call center calls, annoying upselling, and constant order mistakes.</string>
+    <string name="elmenus">Elmenus</string>
+    <string name="elmenus_description">Do you want to try the local food, do you want to try a restaurant but you don\'t know its menu? Using Elmenus, browse over 6000+ restaurants and thousands of visualized dishes in Egypt to discover and order the food you love.</string>
+    <string name="egypt_travel_guide">Egypt Travel Guide</string>
+    <string name="egypt_travel_guide_description">Browse over 6000+ restaurants and thousands of visualized dishes in Egypt to discover and order the food you love.</string>
+    <string name="bey2olak">Bey2olak</string>
+    <string name="bey2olak_description">Did you decide to take it more further and go on the egyptian roads with a private car? Bey2olak can be very helpful, Bey2olak give you live reports of the state of the roads, which ones are jammed and where the are road accidents and you can find the best alternatives roads.</string>
+    <string name="swvl_uber_careem">Swvl, Uber and Careem</string>
+    <string name="swvl_uber_careem_description">Do you want to roam alone in the streets, or do you want to go to a place outside your planned trip but you don\'t want to take the hustle of dealing with public transportation? Swvl, Uber and Careem are your best go in this case, using Swvl or Careem Bus you can book a shared ride in comfortable buses or if you want you can book a car using Uber or Careem.</string>
+    <string name="tourist_police">Tourist Police</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="telephone_guide">Telephone Guide</string>
+    <string name="emergency_police">Emergency Police</string>
+    <string name="traffic_police">Traffic Police</string>
+    <string name="embassy">Your Home Country\'s Embassy</string>
+
+
+
+
+
+
 </resources>

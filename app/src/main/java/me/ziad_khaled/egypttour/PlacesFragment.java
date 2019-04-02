@@ -21,7 +21,7 @@ public class PlacesFragment extends Fragment {
 
         final ArrayList<Place> placesList = DataStorage.getTouristicPlacesList();
 
-        PlaceAdapter adapter = new PlaceAdapter(getActivity(), -1, placesList);
+        PlaceAdapter adapter = new PlaceAdapter(getActivity(),  placesList);
         View view = inflater.inflate(R.layout.items_list, container, false);
         ListView listView = (ListView) view.findViewById(R.id.items_list);
         listView.setAdapter(adapter);
